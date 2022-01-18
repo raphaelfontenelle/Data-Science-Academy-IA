@@ -1,0 +1,25 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap07\Mini-Projeto1-Reconhecimento-Imagens\parallel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap07\Mini-Projeto1-Reconhecimento-Imagens\parallel\kernel.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(294): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(354): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(359): warning C4474: 'printf' : too many arguments passed for format string
+  C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(359): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(360): warning C4474: 'printf' : too many arguments passed for format string
+  C:/Users/Daniel/Dropbox/DSA/ProgParallelGPU/Cap07/Mini-Projeto1-Reconhecimento-Imagens/parallel/kernel.cu(360): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\daniel\dropbox\dsa\progparallelgpu\cap07\mini-projeto1-reconhecimento-imagens\parallel\wb.h(456): note: see reference to function template instantiation '_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,float*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  parallel.vcxproj -> C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap07\Mini-Projeto1-Reconhecimento-Imagens\Debug\ImageRecognition.exe
+  parallel.vcxproj -> C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap07\Mini-Projeto1-Reconhecimento-Imagens\Debug\ImageRecognition.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap07\Mini-Projeto1-Reconhecimento-Imagens\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

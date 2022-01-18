@@ -1,0 +1,9 @@
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\bin\BitmapSyncCs.exe.config
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\bin\BitmapSyncCs.exe
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\bin\BitmapSyncCs.pdb
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.Form1.resources
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.Properties.Resources.resources
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.csproj.GenerateResource.Cache
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.exe
+C:\Users\Daniel\Dropbox\DSA\ProgParallelGPU\Cap06\ProgParallel10\BitmapSyncCs\obj\Debug\BitmapSyncCs.pdb
